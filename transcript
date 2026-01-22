@@ -1,0 +1,68 @@
+# Loading project proiect_itsc
+do run_erm16.txt
+# ERM16_microprocessor.sv alu16.sv control_unit.sv extension.sv muxflags.sv muxN.sv reg_file.sv register.sv
+# ERM16_tb
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:17:57 on Jan 22,2026
+# vlog -reportprogress 300 ERM16_microprocessor.sv alu16.sv control_unit.sv extension.sv muxflags.sv muxN.sv reg_file.sv register.sv 
+# -- Compiling module ERM16_microprocessor
+# -- Compiling module latch_mem
+# -- Compiling module ERM16_tb
+# -- Compiling module alu16
+# -- Compiling module tb_alu16
+# -- Compiling module control_unit
+# -- Compiling module control_unit_tb
+# -- Compiling module extension
+# -- Compiling module muxflags
+# -- Compiling module muxN
+# ** Warning: muxN.sv(5): (vlog-13314) Defaulting port 'DI' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+# -- Compiling module reg_file
+# -- Compiling module register
+# 
+# Top level modules:
+# 	ERM16_tb
+# 	tb_alu16
+# 	control_unit_tb
+# End time: 17:17:57 on Jan 22,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vsim -voptargs="+acc" ERM16_tb 
+# Start time: 17:17:58 on Jan 22,2026
+# Loading sv_std.std
+# Loading work.ERM16_tb
+# Loading work.ERM16_microprocessor
+# Loading work.register
+# Loading work.muxN
+# Loading work.reg_file
+# Loading work.extension
+# Loading work.alu16
+# Loading work.latch_mem
+# Loading work.muxflags
+# Loading work.control_unit
+# ** Warning: (vsim-PLI-3691) Expected a system task, not a system function '$fscanf'.
+#    Time: 0 ps  Iteration: 0  Instance: /ERM16_tb File: ERM16_microprocessor.sv Line: 153
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (16) for port 'DO'. The port definition is at: extension.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /ERM16_tb/uut/ext16 File: ERM16_microprocessor.sv Line: 69
+# Compile of alu16.sv was successful.
+# Compile of control_unit.sv was successful.
+# Compile of ERM16_microprocessor.sv was successful.
+# Compile of extension.sv was successful.
+# Compile of muxflags.sv was successful.
+# Compile of muxN.sv was successful with warnings.
+# Compile of reg_file.sv was successful.
+# Compile of register.sv was successful.
+# Compile of tb_stack16_sync.sv failed with 1 errors.
+# 9 compiles, 1 failed with 1 error.
+# Compile of alu16.sv was successful.
+# Compile of control_unit.sv was successful.
+# Compile of ERM16_microprocessor.sv was successful.
+# Compile of extension.sv was successful.
+# Compile of muxflags.sv was successful.
+# Compile of muxN.sv was successful with warnings.
+# Compile of reg_file.sv was successful.
+# Compile of register.sv was successful.
+# Compile of tb_stack16_sync.sv failed with 1 errors.
+# 9 compiles, 1 failed with 1 error.
+run
+run -continue
+# End time: 17:55:27 on Jan 22,2026, Elapsed time: 0:37:29
+# Errors: 0, Warnings: 17

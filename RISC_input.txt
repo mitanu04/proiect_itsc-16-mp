@@ -1,0 +1,8 @@
+MOV i R0 7
+MOV i R1 2
+CMP r R1 R0
+JG i 6
+OUT i R0 4
+J i 7 
+OUT i R1 4
+HLT

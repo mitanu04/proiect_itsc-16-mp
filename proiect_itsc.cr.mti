@@ -1,0 +1,50 @@
+C:/16-bit-MP/register.sv {1 {vlog -work work -sv -stats=none C:/16-bit-MP/register.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module register
+
+Top level modules:
+	register
+
+} {} {}} C:/16-bit-MP/reg_file.sv {1 {vlog -work work -sv -stats=none C:/16-bit-MP/reg_file.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module reg_file
+
+Top level modules:
+	reg_file
+
+} {} {}} C:/16-bit-MP/extension.sv {1 {vlog -work work -sv -stats=none C:/16-bit-MP/extension.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module extension
+
+Top level modules:
+	extension
+
+} {} {}} C:/16-bit-MP/alu16.sv {1 {vlog -work work -sv -stats=none C:/16-bit-MP/alu16.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module alu16
+-- Compiling module tb_alu16
+
+Top level modules:
+	tb_alu16
+
+} {} {}} C:/16-bit-MP/tb_stack16_sync.sv {0 {vlog -work work -sv -stats=none C:/16-bit-MP/tb_stack16_sync.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_stack16_sync
+** Error (suppressible): C:/16-bit-MP/tb_stack16_sync.sv(77): (vlog-7061) Variable 'mem' driven in an always_ff block, may not be driven by any other process. See C:/16-bit-MP/tb_stack16_sync.sv(24).
+
+} {} {}} C:/16-bit-MP/muxflags.sv {1 {vlog -work work -sv -stats=none C:/16-bit-MP/muxflags.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module muxflags
+
+Top level modules:
+	muxflags
+
+} {} {}} C:/16-bit-MP/muxN.sv {2 {vlog -work work -sv -stats=none C:/16-bit-MP/muxN.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module muxN
+** Warning: C:/16-bit-MP/muxN.sv(5): (vlog-13314) Defaulting port 'DI' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	muxN
+
+} {} {}}

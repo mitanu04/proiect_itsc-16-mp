@@ -1,0 +1,52 @@
+{D:/UPT stuffs/An 3/FIC/ERM16/reg_file.sv} {1 {vlog -work work -sv -nocovercells {D:/UPT stuffs/An 3/FIC/ERM16/reg_file.sv}
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module reg_file
+
+Top level modules:
+	reg_file
+
+} {} {}} {D:/UPT stuffs/An 3/FIC/ERM16/alu16.sv} {1 {vlog -work work -sv -nocovercells {D:/UPT stuffs/An 3/FIC/ERM16/alu16.sv}
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module alu16
+-- Compiling module tb_alu16
+
+Top level modules:
+	tb_alu16
+
+} {} {}} {D:/UPT stuffs/An 3/FIC/ERM16/register.sv} {1 {vlog -work work -sv -nocovercells {D:/UPT stuffs/An 3/FIC/ERM16/register.sv}
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module register
+
+Top level modules:
+	register
+
+} {} {}} {D:/UPT stuffs/An 3/FIC/ERM16/extension.sv} {1 {vlog -work work -sv -nocovercells {D:/UPT stuffs/An 3/FIC/ERM16/extension.sv}
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module extension
+
+Top level modules:
+	extension
+
+} {} {}} {D:/UPT stuffs/An 3/FIC/ERM16/muxflags.sv} {1 {vlog -work work -sv -nocovercells {D:/UPT stuffs/An 3/FIC/ERM16/muxflags.sv}
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module muxflags
+
+Top level modules:
+	muxflags
+
+} {} {}} {D:/UPT stuffs/An 3/FIC/ERM16/control_unit.sv} {1 {vlog -work work -sv -nocovercells {D:/UPT stuffs/An 3/FIC/ERM16/control_unit.sv}
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module control_unit
+-- Compiling module control_unit_tb
+
+Top level modules:
+	control_unit_tb
+
+} {} {}} {D:/UPT stuffs/An 3/FIC/ERM16/muxN.sv} {1 {vlog -work work -sv -nocovercells {D:/UPT stuffs/An 3/FIC/ERM16/muxN.sv}
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module muxN
+
+Top level modules:
+	muxN
+
+} {} {}}
